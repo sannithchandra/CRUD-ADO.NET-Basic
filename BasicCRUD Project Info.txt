@@ -1,0 +1,3 @@
+here we wrote crud operations in .net core web api using only controllers and models in ado.net 
+
+here in ado .net in this project we create a database name taskmanager in that we create table called Project with columns same as models 
