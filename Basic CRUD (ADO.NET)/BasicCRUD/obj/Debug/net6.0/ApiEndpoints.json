@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "BasicCRUD.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "api/Student/addStudent",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "project",
+        "Type": "BasicCRUD.Model.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasicCRUD.Controllers.StudentController",
+    "Method": "deleteStudent",
+    "RelativePath": "api/Student/deleteStudent/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasicCRUD.Controllers.StudentController",
+    "Method": "getStudentById",
+    "RelativePath": "api/Student/getStudentById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasicCRUD.Controllers.StudentController",
+    "Method": "GetStudents",
+    "RelativePath": "api/Student/getStudents",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BasicCRUD.Controllers.StudentController",
+    "Method": "updateStudent",
+    "RelativePath": "api/Student/updateStudent/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "project",
+        "Type": "BasicCRUD.Model.Project",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
